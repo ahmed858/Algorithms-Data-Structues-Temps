@@ -17,6 +17,7 @@ void add(string str) {
         cnt[cur]++;
     }
 }
+
 void remove(string str) {
     // dont remove before find it
     int cur = root, x, n = sz(str);
