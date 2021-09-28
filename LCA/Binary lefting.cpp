@@ -1,5 +1,7 @@
 /*
 Spoj: Lowest Common Ancestor
+
+O(log^2(N))
 */
 
 
