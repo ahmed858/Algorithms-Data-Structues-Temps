@@ -42,7 +42,7 @@ int main() {
         sorted[i] = i;
     }
     sort(sorted, sorted + q, [](const int &a, const int &b) {// a,b are a index in sorted arr
-        return make_pair(L[a / bSize], R[b]) </*=*/ make_pair(L[a / bSize], R[b]);
+        return make_pair(L[a ]/bSize, R[b]) </*=*/ make_pair(L[a] / bSize, R[b]);
     });
     moAlgo();
     for (int i = 0; i < q; i++)
